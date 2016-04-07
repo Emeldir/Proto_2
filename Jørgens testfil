@@ -1,0 +1,13 @@
+string a
+
+void setup();{
+print('hei, nå bruker vi github!');
+}
+
+void loop();{
+a=input('liker du å bruke github?');
+if (a=='ja'){
+print('så bra!');
+else {
+print('shit, du er kjip, ass');
+}
