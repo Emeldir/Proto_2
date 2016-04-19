@@ -8,16 +8,28 @@
 
 // gjør dette * 8
 
-MCP3008 adc(CLOCK_PN, MOSI_PIN, MISO_PIN, CS_PIN);
+MCP3008 adc0(CLOCK_PIN, MOSI_PIN, MISO_PIN, CS_PIN);
 
 // gjør dette * 8
 
 void setup () {
 
-int verdiliste=[]
+fotoresistor_number=50
+int value_list[]={}
+adc_list[] ={adc1, adc2, adc3, adc4, adc5, adc6, adc7, adc8}
+int counter=0
 
 }
 
 void loop () {
-for i in range(
+for (i in range(8)) {
+for j in range(8)) {
+value_list[counter]=adc_list[i].readADC[j];
+counter+=1
+}
+}
+serial.println(value_list[];
+}
+
+
 
